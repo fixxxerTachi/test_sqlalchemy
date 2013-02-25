@@ -6,5 +6,5 @@ engine=create_engine('mysql://root:pass@localhost/flaskr')
 Base=declarative_base()
 
 class User(Base):
-	pass
-	
+	__tablename__='users'
+
