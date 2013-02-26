@@ -10,3 +10,8 @@ class User(Base):
 	id=Column(Integer,primary_key=True)
 	name=Column(String(30))
 	password=Column(Stgring(50))
+
+	def __init__(self,name,password):
+		self.name=name
+		self.password=password
+
