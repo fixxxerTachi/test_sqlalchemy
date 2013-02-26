@@ -15,6 +15,6 @@ class User(Base):
 	def __init__(self,name,password):
 		self.name=name
 		self.password=password
-	
-	def __repr__(self):
-		return self.fullname
+
+	def __reper__(self):
+		return self.name
