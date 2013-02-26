@@ -16,3 +16,5 @@ class User(Base):
 		self.name=name
 		self.password=password
 
+	def __reper__(self):
+		return self.name
